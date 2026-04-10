@@ -1,0 +1,8 @@
+[package]
+name = "cuda-observer"
+version = "0.1.0"
+edition = "2021"
+description = "Observer pattern — reactive subscriptions, signal propagation, change detection, and dependency tracking for agent systems"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
