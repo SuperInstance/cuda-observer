@@ -2,7 +2,7 @@
 name = "cuda-observer"
 version = "0.1.0"
 edition = "2021"
-description = "Reactive subscriptions, signal propagation, change detection"
+description = "Reactive subscriptions and change detection"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-observer"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
